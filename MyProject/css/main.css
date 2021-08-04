@@ -6,6 +6,12 @@
 html,
 body {
   min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 html {
@@ -13,12 +19,6 @@ html {
   font-size: 10px;
   line-height: 10px;
   overflow-x: hidden;
-}
-
-body {
-  line-height: 1.5;
-  text-rendering: optimizeLegibility;
-  height: 100%;
 }
 
 h1,
@@ -44,6 +44,7 @@ a {
 
 .wrapper {
   background-image: url(/MyProject/img/bgmain.jpg);
+  background-size: cover;
 }
 .wrapper .header .nav {
   display: -webkit-box;
@@ -55,9 +56,10 @@ a {
   padding-top: 5rem;
 }
 .wrapper .header .nav__logo {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #533738;
-  padding-left: 15rem;
+  padding-left: 5rem;
+  line-height: 1.6rem;
 }
 .wrapper .header .nav__nav-list {
   display: -webkit-box;
@@ -70,8 +72,7 @@ a {
 .wrapper .header .nav__nav-list .nav__nav-list-item .nav__nav-list-link {
   font-size: 1.6rem;
   color: #533738;
-  margin-right: 3rem;
-  padding: 2rem 3rem;
+  padding: 1.5rem 2rem;
 }
 .wrapper .header .nav__nav-list .nav__nav-list-item .nav__nav-list-link:hover {
   -webkit-transition: 0.7s ease;
@@ -82,11 +83,19 @@ a {
 .wrapper .header .nav__info-link {
   color: #533738;
   font-size: 1.6rem;
-  padding-right: 15rem;
+  margin-right: 15rem;
+  padding: 1.5rem 2rem;
+}
+.wrapper .header .nav__info-link:hover {
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  background-color: #cc8b86;
+  color: antiquewhite;
 }
 .wrapper .main__container {
   margin: 12rem 0 0 20rem;
   max-width: 50rem;
+  padding-bottom: 10rem;
 }
 .wrapper .main__container .main__container-title {
   font-size: 5rem;
@@ -113,4 +122,68 @@ a {
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
   color: antiquewhite;
+}
+
+.section__about {
+  background-color: #e5e5e5;
+}
+.section__about .section__about-container .section__about-container-title {
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #533738;
+  text-align: center;
+  padding-top: 6rem;
+  margin-bottom: 5rem;
+}
+.section__about .section__about-container .section__about-container-img {
+  float: left;
+  margin-left: 15rem;
+}
+.section__about .section__about-container .section__about-container-img .section__about-container-img-img {
+  width: 40rem;
+  margin-right: 6rem;
+}
+.section__about .section__about-container .section__about-container-description {
+  font-size: 1.8rem;
+  color: #533738;
+  line-height: 3ren;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.section__experience {
+  background-color: #8d7370;
+}
+.section__experience span {
+  display: block;
+  line-height: 6rem;
+}
+.section__experience .section__experience-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5rem;
+  text-align: center;
+}
+.section__experience .section__experience-container .number {
+  font-size: 5rem;
+  color: #fff;
+}
+.section__experience .section__experience-container .section__experience-container-years {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 3.2rem;
+}
+.section__experience .section__experience-container .section__experience-container-project {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 3.2rem;
+}
+.section__experience .section__experience-container .section__experience-container-reward {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 3.2rem;
 }
