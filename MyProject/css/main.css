@@ -70,12 +70,23 @@ a {
 .wrapper .header .nav__nav-list .nav__nav-list-item .nav__nav-list-link {
   font-size: 1.6rem;
   color: #533738;
-  margin-right: 7rem;
+  margin-right: 3rem;
+  padding: 2rem 3rem;
+}
+.wrapper .header .nav__nav-list .nav__nav-list-item .nav__nav-list-link:hover {
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  background-color: #cc8b86;
+  color: antiquewhite;
 }
 .wrapper .header .nav__info-link {
   color: #533738;
   font-size: 1.6rem;
   padding-right: 15rem;
+}
+.wrapper .main__container {
+  margin: 12rem 0 0 20rem;
+  max-width: 50rem;
 }
 .wrapper .main__container .main__container-title {
   font-size: 5rem;
@@ -86,7 +97,20 @@ a {
   line-height: 30px;
   font-size: 1.8rem;
   color: #533738;
+  margin-top: 2rem;
 }
 .wrapper .main__container .main__container-link {
+  display: inline-block;
   font-size: 2rem;
+  padding: 1rem 6.5rem;
+  background-color: #cc8b86;
+  margin-top: 3rem;
+}
+.wrapper .main__container .main__container-link .main__container-link-link {
+  color: #533738;
+}
+.wrapper .main__container .main__container-link .main__container-link-link:hover {
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  color: antiquewhite;
 }

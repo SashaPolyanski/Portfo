@@ -54,7 +54,13 @@ a {
 				.nav__nav-list-link {
 					font-size: 1.6rem;
 					color: #533738;
-					margin-right: 7rem;
+					margin-right: 3rem;
+					padding: 2rem 3rem;
+					&:hover {
+						transition: 0.7s ease;
+						background-color: #cc8b86;
+						color: antiquewhite;
+					}
 				}
 			}
 		}
@@ -65,6 +71,8 @@ a {
 		}
 	}
 	.main__container {
+		margin: 12rem 0 0 20rem;
+		max-width: 50rem;
 		.main__container-title {
 			font-size: 5rem;
 			color: #533738;
@@ -74,9 +82,21 @@ a {
 			line-height: 30px;
 			font-size: 1.8rem;
 			color: #533738;
+			margin-top: 2rem;
 		}
 		.main__container-link {
+			display: inline-block;
 			font-size: 2rem;
+			padding: 1rem 6.5rem;
+			background-color: #cc8b86;
+			margin-top: 3rem;
+			.main__container-link-link {
+				color: #533738;
+				&:hover {
+					transition: 0.7s ease;
+					color: antiquewhite;
+				}
+			}
 		}
 	}
 }
