@@ -171,3 +171,55 @@ a {
 		}
 	}
 }
+.section__ourwork {
+	background-color: #e5e5e5;
+	.section__ourwork-container {
+		.section__ourwork-container-img {
+			margin: 1rem;
+		}
+		.section__ourwork-container-img1 {
+			opacity: 0.3;
+			margin: 1rem;
+		}
+		.section__ourwork-container-title {
+			font-size: 4rem;
+			margin-left: 10rem;
+			padding-top: 4rem;
+			padding-bottom: 2rem;
+			color: #533738;
+		}
+		.section__ourwork-container-description {
+			display: inline-block;
+			position: relative;
+			.section__ourwork-container-description-title {
+				color: #533738;
+				font-size: 3rem;
+				max-width: 25rem;
+				text-align: center;
+				position: absolute;
+				top: 10%;
+				left: 25%;
+			}
+			.section__ourwork-container-description-description {
+				position: absolute;
+				color: #533738;
+				font-size: 1.8rem;
+				max-width: 30rem;
+				text-align: center;
+				top: 30%;
+				left: 20%;
+			}
+		}
+	}
+	.section__ourwork-more {
+		display: flex;
+		font-size: 3rem;
+		justify-content: center;
+		.section__ourwork-more-link {
+			color: #533738;
+		}
+		.section__ourwork-more-arrow {
+			margin-left: 1rem;
+		}
+	}
+}
