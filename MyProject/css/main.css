@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+html {
+  height: auto;
+  font-size: 10px;
+  line-height: 10px;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  background-image: url(/MyProject/img/bgmain.jpg);
+}
+.wrapper .header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5rem;
+}
+.wrapper .header .nav__logo {
+  font-size: 2rem;
+  color: #533738;
+  padding-left: 15rem;
+}
+.wrapper .header .nav__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .header .nav__nav-list .nav__nav-list-item {
+  list-style-type: none;
+}
+.wrapper .header .nav__nav-list .nav__nav-list-item .nav__nav-list-link {
+  font-size: 1.6rem;
+  color: #533738;
+  margin-right: 7rem;
+}
+.wrapper .header .nav__info-link {
+  color: #533738;
+  font-size: 1.6rem;
+  padding-right: 15rem;
+}
+.wrapper .main__container .main__container-title {
+  font-size: 5rem;
+  color: #533738;
+  line-height: 62px;
+}
+.wrapper .main__container .main__container-description {
+  line-height: 30px;
+  font-size: 1.8rem;
+  color: #533738;
+}
+.wrapper .main__container .main__container-link {
+  font-size: 2rem;
+}
