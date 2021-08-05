@@ -220,6 +220,37 @@ a {
 		}
 		.section__ourwork-more-arrow {
 			margin-left: 1rem;
+			padding-bottom: 3rem;
 		}
+	}
+}
+.section__team {
+	background-color: #e2c4ba;
+	h3 {
+		font-size: 5rem;
+		font-weight: 200;
+		color: #533738;
+		text-align: center;
+		padding-top: 5rem;
+		margin-bottom: 4rem;
+	}
+	.section__team-container {
+		display: flex;
+		justify-content: center;
+		p {
+			color: #533738;
+			font-size: 1.8rem;
+			max-width: 32rem;
+			margin: 0 2rem 0 0;
+		}
+	}
+	.container__team-title {
+		text-align: center;
+		font-size: 4rem;
+		color: #533738;
+	}
+	.container__team-work {
+		display: flex;
+		justify-content: space-around;
 	}
 }
