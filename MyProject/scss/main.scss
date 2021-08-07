@@ -175,6 +175,7 @@ a {
 .section__ourwork {
 	background-color: #e5e5e5;
 	.section__ourwork-container {
+		padding-left: 5%;
 		.section__ourwork-container-img {
 			margin: 1rem;
 		}
@@ -192,6 +193,7 @@ a {
 		.section__ourwork-container-description {
 			display: inline-block;
 			position: relative;
+
 			.section__ourwork-container-description-title {
 				color: #533738;
 				font-size: 3rem;
@@ -366,6 +368,27 @@ a {
 		}
 	}
 	.section__application-maps {
-		margin-left: 2rem;
+		margin: 2rem 4rem 2rem;
+	}
+}
+footer {
+	background-color: #e5e5e5e5;
+	.footer__container {
+		display: flex;
+		justify-content: space-around;
+		padding: 2.5rem 0;
+		.footer__phone-link {
+			color: #533738;
+			font-size: 1.8rem;
+			margin-right: 4rem;
+		}
+		.footer__address {
+			color: #533738;
+			font-size: 1.8rem;
+		}
+		.footer__name {
+			color: #533738;
+			font-size: 1.8rem;
+		}
 	}
 }

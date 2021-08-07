@@ -192,6 +192,9 @@ a {
 .section__ourwork {
   background-color: #e5e5e5;
 }
+.section__ourwork .section__ourwork-container {
+  padding-left: 5%;
+}
 .section__ourwork .section__ourwork-container .section__ourwork-container-img {
   margin: 1rem;
 }
@@ -417,5 +420,30 @@ a {
   padding: 2rem 10rem;
 }
 .section__application .section__application-maps {
-  margin-left: 2rem;
+  margin: 2rem 4rem 2rem;
+}
+
+footer {
+  background-color: #e5e5e5e5;
+}
+footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2.5rem 0;
+}
+footer .footer__container .footer__phone-link {
+  color: #533738;
+  font-size: 1.8rem;
+  margin-right: 4rem;
+}
+footer .footer__container .footer__address {
+  color: #533738;
+  font-size: 1.8rem;
+}
+footer .footer__container .footer__name {
+  color: #533738;
+  font-size: 1.8rem;
 }
