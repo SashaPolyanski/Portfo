@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/MyProject/css/simple-adaptive-slider.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -14,20 +16,39 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav class="nav">
-                <div class="nav__logo">Scandi</div>
-                <div class="nav__nav">
-                    <ul class="nav__nav-list">
-                        <li class="nav__nav-list-item"><a href="#" class="nav__nav-list-link">О компании</a></li>
-                        <li class="nav__nav-list-item"><a href="#" class="nav__nav-list-link">Портфолио</a></li>
-                        <li class="nav__nav-list-item"><a href="#" class="nav__nav-list-link">Команда</a></li>
-                        <li class="nav__nav-list-item"><a href="#" class="nav__nav-list-link">Как мы работаем</a></li>
-                        <li class="nav__nav-list-item"><a href="#" class="nav__nav-list-link">Отзывы клиентов</a></li>
-                        <li class="nav__nav-list-item"><a href="#" class="nav__nav-list-link">Оставить заявку</a></li>
-                    </ul>
-                </div>
-                <div class="nav__info">
-                    <a class="nav__info-link" href="tel:+375293579476">+375(29) 357-94-76</a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">SCANDI</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">О компании</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Портфолио</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Команда</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Как мы работаем</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Отзывы клиентов</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Как мы работаем</a>
+                            </li>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Поиск</button>
+                            </form>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -118,16 +139,19 @@
             <h3>Как мы работаем</h3>
         </div>
         <div class="container__team-work">
-            <div class="container__team-work-description"><span class="container__team-number">1</span>Знакомимся,
+            <div class="container__team-work-description"><span class="container__team-work-number">1</span>Знакомимся,
                 выезжаем
                 на объект, утверждаем концепцию, подписывем договор.</div>
-            <div class="container__team-work-description"><span class="container__team-number">2</span>Подбираем мебель,
+            <div class="container__team-work-description"><span class="container__team-work-number">2</span>Подбираем
+                мебель,
                 текстиль, аксессуры. Делаем
                 3D-визуализацию.</div>
-            <div class="container__team-work-description"><span class="container__team-number">3</span>Находим нужные
+            <div class="container__team-work-description"><span class="container__team-work-number">3</span>Находим
+                нужные
                 магазины, помогаем с доставкой
                 и оплатой товаров.</div>
-            <div class="container__team-work-description"><span class="container__team-number">4</span>Воплощаем проект
+            <div class="container__team-work-description"><span class="container__team-work-number">4</span>Воплощаем
+                проект
                 в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
         </div>
     </section>
@@ -264,14 +288,23 @@
 
     <footer>
         <div class="footer__container">
-            <div><a class="footer__phone-link" href="tel:+375293579476">+375(29) 357-94-76</a> <span
-                    class="footer__address">г. Минск, ул.
+            <div><a class="footer__container-phone-link" href="tel:+375293579476">+375(29) 357-94-76</a> <span
+                    class="footer__container-address">г. Минск, ул.
                     Ангарская, д. 20</span></div>
-            <div class="footer__name">ИП Полянский А.С</div>
+            <div class="footer__container-name">ИП Полянский А.С</div>
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="/MyProject/js/jquery-ui.min.js"></script>
     <script src="/MyProject/js/simple-adaptive-slider.min.js"></script>
+
+
+
+
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             new SimpleAdaptiveSlider('.slider', {
@@ -280,7 +313,11 @@
                 interval: 3000,
                 swipe: true,
             });
-        });</script>
+        });
+
+    </script>
+
+
 </body>
 
 </html>
