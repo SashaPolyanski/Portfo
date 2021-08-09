@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -151,7 +151,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   padding: 5rem;
   text-align: center;
 }
@@ -223,8 +223,8 @@ a {
   display: flex;
   font-size: 3rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .section__ourwork-more-link {
   color: #533738;
@@ -250,10 +250,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .section__team-container p {
   color: #533738;
@@ -272,7 +272,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 .section__team .container__team-work-description {
   font-size: 1.8rem;
@@ -315,8 +315,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .section__reviews .slider__item-slide {
   margin: auto 15%;
@@ -337,7 +337,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .section__application-container {
   padding-top: 5rem;
@@ -422,7 +422,7 @@ footer .footer__container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   padding: 2.5rem 0;
 }
 footer .footer__container-phone-link {
@@ -454,14 +454,129 @@ footer .footer__container-name {
   }
 }
 @media screen and (max-width: 768px) {
-  .section__ourwork-container-img {
-    max-width: 50rem;
+  .wrapper .main__container {
+    margin-left: 0;
+    padding-left: 10%;
   }
+
+  .section__experience .section__experience-container .number {
+    font-size: 4rem;
+  }
+
+  .section__about .section__about-container-title {
+    margin-bottom: 3%;
+  }
+
+  .section__experience .section__experience-container-years {
+    font-size: 2.5rem;
+  }
+
+  .section__experience .section__experience-container-project {
+    font-size: 2.5rem;
+  }
+
+  .section__experience .section__experience-container-reward {
+    font-size: 2.5rem;
+  }
+
   .section__experience .section__experience-container {
     font-size: 2rem;
   }
+
+  .section__ourwork-container {
+    margin: 0 auto;
+  }
+
+  .container__team-work-number {
+    margin: 0 auto;
+  }
+
   .container__team-work {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .section__ourwork .section__ourwork-container-img {
+    max-width: 50rem;
+  }
+
+  .section__team .container__team-work-description:last-child {
+    margin-right: 0;
+  }
+
+  .section__experience .section__experience-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .section__about .section__about-container .section__about-container-img {
+    margin: 5% 20%;
+  }
+
+  .section__about-container-img-img {
+    max-width: 50rem;
+  }
+
+  .section__reviews .slider__item-slide {
+    padding-right: 15rem;
+    margin: 0;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section__reviews {
+    display: none;
+  }
+}
+@media screen and (max-width: 580px) {
+  .section__ourwork .section__ourwork-container-img {
+    max-width: 30rem;
+  }
+
+  .section__ourwork .section__ourwork-container-img1 {
+    display: none;
+  }
+
+  .section__ourwork .section__ourwork-container-description-title {
+    display: none;
+  }
+
+  .section__ourwork .section__ourwork-container-description-description {
+    display: none;
+  }
+
+  .section__team .container__team-work-description {
+    margin-left: 2rem;
+  }
+
+  .section__team .container__team-work-description:first-child {
+    margin-left: 2rem;
+  }
+
+  .section__about .section__about-container-img-img {
+    max-width: 30rem;
+    margin: 0;
+  }
+
+  .section__application-container {
+    max-width: 30rem;
+  }
+
+  .section__application-container input {
+    max-width: 30rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .section__application .section__application-maps {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+
+  .section__about .section__about-container-img-img {
+    width: 20rem;
+  }
+
+  .section__about .section__about-container-description {
+    margin: 0;
   }
 }
