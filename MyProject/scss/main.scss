@@ -80,10 +80,10 @@ $main_title_h2: 4rem;
 		}
 	}
 	.form-control {
-		@include main_btn
+		@include main_btn;
 	}
 	.btn {
-		@include main_btn
+		@include main_btn;
 	}
 	.nav-link {
 		color: $main_color;
@@ -126,7 +126,7 @@ $main_title_h2: 4rem;
 			}
 		}
 	}
-
+}
 .section__about {
 	background-color: $white_bgcolor;
 	.section__about-container {
@@ -174,13 +174,13 @@ $main_title_h2: 4rem;
 			line-height: $main_lh;
 		}
 		&-years {
-			@include main_number
+			@include main_number;
 		}
 		&-project {
-			@include main_number
+			@include main_number;
 		}
 		&-reward {
-			@include main_number
+			@include main_number;
 		}
 	}
 }
@@ -354,10 +354,10 @@ $main_title_h2: 4rem;
 			opacity: 0.7;
 		}
 		&-input-text {
-			@include main_input
+			@include main_input;
 		}
 		&-input-email {
-			@include main_input
+			@include main_input;
 		}
 		.btn {
 			padding: 1rem 6rem;
