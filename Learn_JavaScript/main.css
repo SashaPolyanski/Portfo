@@ -24,11 +24,11 @@ input {
 	border: 1px solid red;
 	width: 700px;
 }
-button {
+#btn {
+	display: inline-block;
 	position: relative;
 	height: 50px;
-	width: 50px;
-	top: 3px;
-	border-radius: 42px;
+	width: 70px;
+	top: 20px;
 	background-color: green;
 }
